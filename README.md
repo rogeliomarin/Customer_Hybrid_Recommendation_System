@@ -22,10 +22,6 @@ Analyzes user behavior and preferences to recommend products. Algorithms such as
 
 Combines the strengths of content-based filtering and collaborative filtering to provide enhanced and personalized recommendations. Content-based recommendations are refined based on user preferences and past behavior captured by collaborative filtering. Hybrid recommendations are tailored to each user, taking into account product names, brands, prices, and ratings.
 
-## Implementation Details
-
-Data is loaded and preprocessed to extract relevant features such as product names, brands, prices, and ratings. Content-based recommendations are generated using TF-IDF vectorization and cosine similarity. Collaborative filtering predictions are made using algorithms like SVD. The hybrid recommendations system combines content-based and collaborative filtering approaches to deliver personalized recommendations per user.
-
 ## 📌 Results and Evaluation
 
 The system is evaluated based on metrics such as recommendation accuracy, diversity, and user satisfaction. The effectiveness of the recommendations is assessed through user feedback and engagement metrics. Continuous improvement and optimization of the recommendation algorithms are part of the evaluation process.
